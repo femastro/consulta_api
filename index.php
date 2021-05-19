@@ -36,7 +36,14 @@
         <table>
             <thead>
                 <tr>
-                    <th colspan="5">Listado</th>
+                    <th colspan="5">LISTADO</th>
+                </tr>
+                <tr>
+                    <th>ID</th>
+                    <th>CODIGO</th>
+                    <th>MARCA</th>
+                    <th>MODELO</th>
+                    <th>MEDIDA</th>
                 </tr>
             </thead>
             <tbody id="contenido"></tbody>
