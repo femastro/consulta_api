@@ -46,7 +46,7 @@
         let boton = document.querySelector('#boton');
         let grilla = document.createElement('p');
         var contenido = document.getElementById('contenido');
-        
+
         boton.addEventListener( 'click', function() {
             let datos = document.getElementById('datos').value;
             if( datos != null && datos != "" ){
@@ -54,7 +54,7 @@
                     .then(res => res.json())
                     .then(data => {
                          data.forEach( Element => {
-                            listado(Element)
+                            listado(Element);
                             contenido.innerHTML = grilla.textContent;
                         });
                     })
@@ -67,7 +67,7 @@
                     .then(res => res.json())
                     .then(data => {
                         data.forEach( Element => {
-                            listado(Element)
+                            listado(Element);
                             contenido.innerHTML = grilla.textContent;
                         });
                      })
